@@ -1,0 +1,25 @@
+{
+  "name": "jsexception",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemashushu/jsexception.git"
+  },
+  "keywords": [
+    "utility",
+    "object"
+  ],
+  "author": "Hippo Spark <hippospark@gmail.com> (https://twitter.com/hemashushu)",
+  "license": "SEE LICENSE IN <LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/hemashushu/jsexception/issues"
+  },
+  "homepage": "https://github.com/hemashushu/jsexception#readme",
+  "devDependencies": {
+  }
+}
