@@ -18,7 +18,7 @@ const DirectoryNotEmptyException = require('./src/directorynotemptyexception');
 const FileAlreadyExistsException = require('./src/filealreadyexistsexception');
 const NotDirectoryException = require('./src/notdirectoryexception');
 
-const Exceptions = {
+module.exports = {
     Exception: Exception,
     DataFormatException: DataFormatException,
     ParseException: ParseException,
@@ -35,5 +35,3 @@ const Exceptions = {
     FileAlreadyExistsException: FileAlreadyExistsException,
     NotDirectoryException: NotDirectoryException
 };
-
-module.exports = Exceptions;
