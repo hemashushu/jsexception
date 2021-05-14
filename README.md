@@ -14,6 +14,7 @@ Using Java-style named exceptions in JavaScript. 😄
     - IllegalArgumentException
     - IndexOutOfBoundsException
     - NullPointerException
+    - UnsupportedOperationException
   - IOException
     - FileNotFoundException
     - FileSystemException
