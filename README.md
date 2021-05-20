@@ -22,4 +22,5 @@ Using Java-style named exceptions in JavaScript. 😄
       - DirectoryNotEmptyException
       - FileAlreadyExistsException
       - NotDirectoryException
+      - IsDirectoryException
 

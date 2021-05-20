@@ -18,6 +18,7 @@ const AccessDeniedException = require('./src/accessdeniedexception');
 const DirectoryNotEmptyException = require('./src/directorynotemptyexception');
 const FileAlreadyExistsException = require('./src/filealreadyexistsexception');
 const NotDirectoryException = require('./src/notdirectoryexception');
+const IsDirectoryException = require('./src/isdirectoryexception');
 
 module.exports = {
     Exception: Exception,
@@ -35,5 +36,6 @@ module.exports = {
     AccessDeniedException: AccessDeniedException,
     DirectoryNotEmptyException: DirectoryNotEmptyException,
     FileAlreadyExistsException: FileAlreadyExistsException,
-    NotDirectoryException: NotDirectoryException
+    NotDirectoryException: NotDirectoryException,
+    IsDirectoryException: IsDirectoryException
 };
