@@ -9,6 +9,7 @@ const IllegalArgumentException = require('./src/illegalargumentexception');
 const IndexOutOfBoundsException = require('./src/indexoutofboundsexception');
 const NullPointerException = require('./src/nullpointerexception');
 const UnsupportedOperationException = require('./src/unsupportedoperationexception');
+const NotImplementedException = require('./src/notimplementedexception');
 
 const IOException = require('./src/ioexception');
 const FileNotFoundException = require('./src/filenotfoundexception');
@@ -30,6 +31,7 @@ module.exports = {
     IndexOutOfBoundsException: IndexOutOfBoundsException,
     NullPointerException: NullPointerException,
     UnsupportedOperationException: UnsupportedOperationException,
+    NotImplementedException: NotImplementedException,
     IOException: IOException,
     FileNotFoundException: FileNotFoundException,
     FileSystemException: FileSystemException,
