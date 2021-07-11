@@ -1,8 +1,8 @@
 const RuntimeException = require('./runtimeexception');
 
 class IllegalArgumentException extends RuntimeException {
-	constructor(message = 'Illegal Argument.') {
-		super(message);
+	constructor(message = 'Illegal Argument.', cause) {
+		super(message, cause);
 	}
 }
 
